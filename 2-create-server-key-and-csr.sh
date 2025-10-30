@@ -36,3 +36,13 @@ openssl x509 -req \
   -extfile server.ext
 
 popd
+
+##########################################################################################
+# You now have:
+#
+# server.key — private key for your service
+#
+# server.crt — certificate signed by your root CA
+#
+# rootCA.crt — the CA’s certificate (trust chain)
+##########################################################################################
